@@ -1,5 +1,0 @@
-
- * A container system based on Linux Primitive for both :
- 	* File system  
- 	* Network
- 	* Process

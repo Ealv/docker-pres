@@ -1,7 +1,9 @@
 
 
 If you already build node.js images
+
 docker-compose up
+
 
 http://localhost:9200/data/_search?q=*
 
