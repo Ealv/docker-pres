@@ -1,26 +1,20 @@
 ### Compose your own dev-Architecture
 
+A node.js server speaking to elasticsearch !
 
-I want a node.js server speaking to an elasticsearch up and running in then minutes.
-
-1 Compose your dev env with ...docker-compose
+1 Compose with ...docker-compose
 
 
 ```HTML
 nodejs:
   image: node-test
-  volumes:
-    - .:/var/app
   links:
     - elasticsearch
 elasticsearch:
   image: elasticsearch:1.5.2
-  ports:
-   - "9200:9200"
 ```
 
 2 Launch it :
-
 
 ```HTML
 docker-compose up
