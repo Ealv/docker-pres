@@ -1,5 +1,5 @@
 
-## A short introction about Docker
+## A short introduction about Docker
 
 That will be focus on Dev {% fragment %}
 
